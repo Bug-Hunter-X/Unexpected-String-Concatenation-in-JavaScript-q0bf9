@@ -1,0 +1,3 @@
+# Unexpected String Concatenation in JavaScript
+
+This repository demonstrates a common JavaScript error: unexpected string concatenation due to loose typing.  The function `foo` intends to add two numbers, but when a number and a string are provided, JavaScript concatenates them as strings instead of performing numerical addition.  The solution showcases how to explicitly type check or convert input values to ensure the intended behavior.
